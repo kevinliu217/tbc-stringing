@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.snp.stringing.domain.Brand;
 
 @RestController
-public class BrandService {
+public class BrandEndpoints {
 
 	@RequestMapping(value = "/brands", method = RequestMethod.GET)
 	public List<Brand> getBrands() {

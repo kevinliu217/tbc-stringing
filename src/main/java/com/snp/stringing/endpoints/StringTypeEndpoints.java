@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.snp.stringing.domain.StringType;
 
 @RestController
-public class StringTypeService {
+public class StringTypeEndpoints {
 
 	@RequestMapping(value = "/stringtypes", method = RequestMethod.GET)
 	public List<StringType> getStringTypes() {
